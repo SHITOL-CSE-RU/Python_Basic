@@ -1,4 +1,7 @@
-n = int(input("Enter Total Number: "))
-for n in (1,10):
-    for x in (1,5):
-        print("x")
+adj = ["red", "big", "tasty"]
+
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+    for y in fruits:
+        print(x, y)
